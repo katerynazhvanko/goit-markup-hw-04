@@ -373,7 +373,7 @@ ul,h1,h2,h3,p {
     line-height:1.7;
 }
 .footer-contact:hover , .footer-contact:focus{color:var(--accent);}
-.subscribe{display:flex; margin: top 0; align-items: center;}
+.subscribe{}
 .subscribe-title{
     margin-bottom: 20px;
     font-weight: 700;
@@ -384,7 +384,7 @@ ul,h1,h2,h3,p {
 .subscribe-list{ display:flex; 
     align-items: center; 
     justify-content: center;}
-.subscribe-item{
+/* .subscribe-item{
     margin-right:10px;
     padding: 0;
     width: 44px;
@@ -392,17 +392,20 @@ ul,h1,h2,h3,p {
     border: 1px solid #AFB1B8;
     border-radius: 50%;
     /* background-color: rgba(255, 255, 255, 0.1); */
-}
+ */
+.subscribe-link{display: flex;
+justify-content: center;
+align-items: center;
+background: #2196F3;
+border-radius: 50%;
+ width: 44px;
+    height: 44px;}
 .subscribe-icon{
-    content:" ";
     width: 20px;
     height: 20px;
-    margin: 12px;
-    background-repeat: no-repeat;
-    background-position: center;
-    fill:#188CE8;
+    fill:red;
 }
 /* .instagram{background-image: url(../image/instagram.svg);} */
-.twitter{background-image: url(../image/twitter.svg);}
+/* .twitter{background-image: url(../image/twitter.svg);}
 .facebook{background-image: url(../image/facebook.svg);}
-.linkedin{background-image: url(../image/linkedin.svg);}
+.linkedin{background-image: url(../image/linkedin.svg);} */

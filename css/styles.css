@@ -353,6 +353,7 @@ ul,h1,h2,h3,p {
 .footer{padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2F303A;}
+.footer-content{display: flex; align-items: baseline;}
 .footer-logo{display: block;
     margin-bottom: 20px;
     font-style: normal;}
@@ -373,7 +374,7 @@ ul,h1,h2,h3,p {
     line-height:1.7;
 }
 .footer-contact:hover , .footer-contact:focus{color:var(--accent);}
-.subscribe{}
+.subscribe{margin-left: 70px;}
 .subscribe-title{
     margin-bottom: 20px;
     font-weight: 700;

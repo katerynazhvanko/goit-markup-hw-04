@@ -55,7 +55,7 @@ ul,h1,h2,h3,p {
 .site-nav .link.current{color:var(--accent);}
 .contact-nav {display: flex; margin-left: auto;}
 .contact-nav-item {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     margin-right: 50px;
 }
@@ -165,12 +165,18 @@ ul,h1,h2,h3,p {
     padding-bottom: 94px; 
 }
 .feature{display: flex;align-items: center;}
-.feature-item{display: block;
-    margin-right: 30px;
-    height: 74px;}
+.feature-item{flex-basis: calc((100% - 90px) / 4); padding: 0; margin-right: 30px;}
+.feature-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;}
 .feature-icon{
-    margin-bottom: 30px;
-    background: #F5F4FA;}
+    width: 270px;
+    height: 120px;
+    fill: currentColor;}
 .feature-item:last-child{margin-right: 0;}
 .feature-title{
     color: var(--title-text-color); 
@@ -212,7 +218,6 @@ ul,h1,h2,h3,p {
     width: 270px;
     height: 368px;
     box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
-    /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2); */
     border-radius: 0px 0px 4px 4px;
 }
 .team-work{
